@@ -25,6 +25,7 @@ public class ReportConverter {
                 rv.getContent(),
                 rv.getCreatedAt(),
                 rv.getUpdatedAt());
+                rv.getLikeCount());
     }
 
     /**
@@ -46,6 +47,7 @@ public class ReportConverter {
                 r.getContent(),
                 r.getCreatedAt(),
                 r.getUpdatedAt());
+                r.getLikeCount());
     }
 
     /**
@@ -76,6 +78,7 @@ public class ReportConverter {
         r.setContent(rv.getContent());
         r.setCreatedAt(rv.getCreatedAt());
         r.setUpdatedAt(rv.getUpdatedAt());
+        r.setLikeCount(rv.getLikeCount());
 
     }
 

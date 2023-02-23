@@ -23,6 +23,7 @@ public interface JpaConst {
     String EMP_COL_CREATED_AT = "created_at"; //登録日時
     String EMP_COL_UPDATED_AT = "updated_at"; //更新日時
     String EMP_COL_DELETE_FLAG = "delete_flag"; //削除フラグ
+    String REP_COL_LIKE_COUNT = "like_count"; //いいね数
 
     int ROLE_ADMIN = 1; //管理者権限ON(管理者)
     int ROLE_GENERAL = 0; //管理者権限OFF(一般)
